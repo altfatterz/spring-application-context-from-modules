@@ -9,7 +9,6 @@ import org.springframework.context.annotation.ImportResource;
 
 /**
  * @author Zoltan Altfatter
- * @soundtrack 'Till I Collapse - Eminem
  */
 @SpringBootApplication
 @ImportResource(value = "classpath*:/META-INF/spring/module-context.xml")

@@ -7,7 +7,6 @@ import org.springframework.stereotype.Service;
 
 /**
  * @author Zoltan Altfatter
- * @soundtrack One Dance - Drake
  */
 @Service
 public class HungarianGreetingService implements GreetingService {
