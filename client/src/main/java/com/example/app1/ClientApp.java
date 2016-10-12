@@ -1,6 +1,6 @@
 package com.example.app1;
 
-import com.example.app2.ClientGreetingService;
+import com.example.service.ClientGreetingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;

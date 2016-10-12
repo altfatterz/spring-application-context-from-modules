@@ -3,10 +3,6 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="greetingService" class="com.example.service.DutchGreetingService" />
-
-    <bean class="com.example.service.ClientGreetingService">
-        <constructor-arg ref="greetingService"/>
-    </bean>
+    <bean id="greetingService" class="com.example.service2.GermanGreetingService"/>
 
 </beans>
