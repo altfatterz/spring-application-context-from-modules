@@ -6,7 +6,7 @@
     <bean id="greetingService" class="com.example.service.DutchGreetingService" />
 
     <bean class="com.example.service.ClientGreetingService">
-        <constructor-arg ref="greetingService"/>
+        <constructor-arg ref="greetingService" />
     </bean>
 
 </beans>
