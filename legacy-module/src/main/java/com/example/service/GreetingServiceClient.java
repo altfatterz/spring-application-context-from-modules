@@ -3,11 +3,11 @@ package com.example.service;
 /**
  * @author Zoltan Altfatter
  */
-public class ClientGreetingService {
+public class GreetingServiceClient {
 
     private GreetingService greetingService;
 
-    public ClientGreetingService(GreetingService greetingService) {
+    public GreetingServiceClient(GreetingService greetingService) {
         this.greetingService = greetingService;
     }
 

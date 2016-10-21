@@ -14,7 +14,7 @@
     <dependencies>
         <dependency>
             <groupId>com.example</groupId>
-            <artifactId>legacy-service</artifactId>
+            <artifactId>legacy-module</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>

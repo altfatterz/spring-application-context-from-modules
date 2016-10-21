@@ -1,7 +1,7 @@
-package com.example.app1;
+package com.example.app;
 
-import com.example.service.ClientGreetingService;
 import com.example.service.GreetingService;
+import com.example.service.GreetingServiceClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -17,15 +17,15 @@ import org.springframework.context.annotation.ImportResource;
 public class ClientWithJavaConfigApp implements CommandLineRunner {
 
     @Autowired
-    private ClientGreetingService clientGreetingService;
+    private GreetingServiceClient greetingServiceClient;
 
     public static void main(String[] args) {
         SpringApplication.run(ClientWithJavaConfigApp.class, args);
     }
 
     @Override
-    public void run(String... strings) throws Exception {
-        System.out.println(clientGreetingService.greet("Zoltan"));
+    public void run(String... args) throws Exception {
+        System.out.println(greetingServiceClient.greet("Zoltan"));
     }
 
     @Bean

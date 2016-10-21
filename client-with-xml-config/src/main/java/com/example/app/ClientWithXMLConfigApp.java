@@ -1,6 +1,6 @@
 package com.example.app;
 
-import com.example.service.ClientGreetingService;
+import com.example.service.GreetingServiceClient;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -16,8 +16,8 @@ public class ClientWithXMLConfigApp {
                 "classpath:/client-context.xml"
         );
 
-        ClientGreetingService clientGreetingService = applicationContext.getBean("clientGreetingService",
-                ClientGreetingService.class);
+        GreetingServiceClient clientGreetingService = applicationContext.getBean("greetingServiceClient",
+                GreetingServiceClient.class);
 
         System.out.println(clientGreetingService.greet("Zoltan"));
     }
