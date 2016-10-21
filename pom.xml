@@ -7,7 +7,7 @@
 	<artifactId>demo-primary</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
     <modules>
-        <module>module</module>
+        <module>legacy-module</module>
 		<module>client-with-java-config</module>
 		<module>client-with-xml-config</module>
 	</modules>
@@ -41,8 +41,5 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-
-
-
 
 </project>
