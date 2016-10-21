@@ -7,8 +7,9 @@
 	<artifactId>demo-primary</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
     <modules>
-        <module>service</module>
-		<module>client</module>
+        <module>module</module>
+		<module>client-with-java-config</module>
+		<module>client-with-xml-config</module>
 	</modules>
     <packaging>pom</packaging>
 
