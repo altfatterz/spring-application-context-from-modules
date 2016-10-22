@@ -1,5 +1,7 @@
 ## Spring fun
 
+Example for blog post: http://zoltanaltfatter.com/2016/10/22/spring-application-context-from-multi-modules/
+
 The project contains two client modules (`client-with-java-config`, `client-with-xml-config`) which both depend on the  `legacy-module` which uses Spring XML config.
 
 The `legacy-module` defines a `GreetingService` with an implementation (`DutchGreetingService`) and also a client of this `GreetingService` which is `GreetingServiceClient`
