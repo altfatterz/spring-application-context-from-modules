@@ -13,7 +13,7 @@ import org.springframework.context.annotation.ImportResource;
  * @author Zoltan Altfatter
  */
 @SpringBootApplication
-@ImportResource(value = "classpath*:/META-INF/spring/module-context.xml")
+@ImportResource(value = "classpath:/META-INF/spring/module-context.xml")
 public class ClientWithJavaConfigApp implements CommandLineRunner {
 
     @Autowired

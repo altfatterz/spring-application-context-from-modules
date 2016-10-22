@@ -12,7 +12,7 @@ public class ClientWithXMLConfigApp {
     public static void main(String[] args) {
 
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext(
-                "classpath*:/META-INF/spring/module-context.xml",
+                "classpath:/META-INF/spring/module-context.xml",
                 "classpath:/client-context.xml"
         );
 
