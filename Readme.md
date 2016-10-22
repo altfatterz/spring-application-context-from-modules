@@ -24,7 +24,8 @@ The ordering of the resources matter. In the above scenario the `DutchGreetingSe
 
 #### Client with Java Config
 
-In the `client-with-java-config` module with Java config we cannot override the `DutchGreetingService` from `legacy-module`. 
+In the `client-with-java-config` module the default is the `HungarianGreetingService` which is always overridden by the `DutchGreetingService` from `legacy-module`.
+We cannot control the ordering of the resources when the combined application context is created.
  
 ```
 @SpringBootApplication
